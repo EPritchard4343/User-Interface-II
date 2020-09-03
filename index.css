@@ -35,6 +35,7 @@ body {
     font-size: 1.8rem;
     line-height: 1.5rem;
     font-family: 'Open Sans', sans-serif;
+    background-color: lightslategrey;
 }
 
 h1{
@@ -65,6 +66,11 @@ nav a {
     background-color:violet;
 }
 
+.homeButton {
+    background-color: black;
+    color:white;
+}
+
 #introduction h2 {
     display:flex;
     justify-content: center;
@@ -80,18 +86,22 @@ nav a {
     font-size: 2rem;
 }
 
-.largeIMG img{
-    background-image:url('https://i.picsum.photos/id/696/200/300.jpg?hmac=Ukxvga_1GYxgfAqzwDhBPfVta6-hJKUhayVlI1yMIdk')  ;
-    height: 50vh;
-    width: 100%;
+.largeIMG {
+    display: flex;
+    align-content: center;
+    background-image:url('https://images.unsplash.com/photo-1597949080878-7ef9eccca3b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80')  ;
+    height: 60vh;
     background-size: cover;
-    background-repeat:no-repeat;
+    background-attachment: fixed;
     
-
-
-   
+    
 }
 
-
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    height: 50%;
+}
 
 
