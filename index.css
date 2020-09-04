@@ -57,13 +57,15 @@ nav {
     display:flex;
     justify-content:center;
     font-size: 2rem;
+    
 }
 
 nav a {
     border: 2px solid black;
     margin: 1% 0;
     padding: 1%;
-    background-color:violet;
+    background-color:red;
+    text-decoration: none;
 }
 
 .homeButton {
@@ -97,11 +99,21 @@ nav a {
     
 }
 
-#projects {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2%;
-    height: 50%;
+
+    #projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1%;
+        margin: 2% 0;
+    }
+
+
+.footer {
+    background-color: black;
 }
 
-
+.contactButton {
+    background-color: white;
+    color: black;
+}
