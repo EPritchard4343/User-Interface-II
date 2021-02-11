@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital@1&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+*{
+  box-sizing:border-box;
+  max-width:100%;
+}
+
+/*General Styles*/
+html{
+  font-size:62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightslategrey;
+}
+
+h1{
+    font-size: 6rem;
+    padding: 20px;
+    margin: 1% 0;
+}
+
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3% 0;
+
+}
+
+
+nav {
+    display:flex;
+    justify-content:center;
+    font-size: 2rem;
+    
+}
+
+nav a {
+    border: 2px solid black;
+    margin: 1% 0;
+    padding: 1%;
+    background-color:red;
+    text-decoration: none;
+    color: white;
+}
+
+.homeButton {
+    background-color: black;
+    color:white;
+}
+
+#introduction h2 {
+    display:flex;
+    justify-content: center;
+    margin: 1% 0;
+    font-size: 4rem;
+    font-family: 'Cedarville Cursive', cursive;
+    
+}
+
+#introduction p {
+    display:flex;
+    justify-content:center;
+    margin: 1% 0;
+    padding: 1%;
+    font-size: 2rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.largeIMG {
+    display: flex;
+    align-content: center;
+    background-image:url('https://images.unsplash.com/photo-1597949080878-7ef9eccca3b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80')  ;
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 1s linear;
+      
+}
+
+.largeIMG:hover {
+    background-image:url('https://images.unsplash.com/photo-1599046239601-c9acfe0134c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    transition: 1s linear;
+}
+
+.largeIMG:hover{
+    
+}
+
+    #projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1%;
+        margin: 2% 0;
+    }
+
+    #projects p {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 20px;
+    }
+
+.footer {
+    background-color: black;
+}
+
+.contactButton {
+    background-color: red;
+    color:white;
+}
